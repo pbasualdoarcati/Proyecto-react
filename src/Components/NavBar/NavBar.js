@@ -1,6 +1,6 @@
 import React from 'react';
 
-function NavBarPin (props){
+function NavBar (props){
     return(
         <div className="contenedor-menu">
             <header>
@@ -36,4 +36,4 @@ function NavBarPin (props){
         </div>
     )
 }
-export default NavBarPin;
+export default NavBar;
