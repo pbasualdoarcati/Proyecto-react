@@ -4,8 +4,8 @@ import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './Components/Section2/section2.scss';
-import './Components/Section4/section4.scss';
 import './Components/Section3/section3.scss';
+import './Components/Section4/section4.scss';
 import 'bootstrap/dist/js/bootstrap.bundle';
 
 ReactDOM.render(
