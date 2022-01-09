@@ -1,8 +1,11 @@
 import React from 'react'
+import NavBar from '../NavBar/NavBar';
+import './Section1.sass'
 
 function Section1(props){
     return (
         <div className="container_carousel container-fluid" id="home">
+            <NavBar />
             <div id="primer_carousel" className="carousel slide container_internal" data-bs-ride="carousel">
                 <div className="carousel-indicators botones_carousel">
                     <button type="button" data-bs-target="#primer_carousel" data-bs-slide-to="0" className="active carousel_boton"
