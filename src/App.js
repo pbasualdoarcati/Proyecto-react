@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-import NavBar from './Components/NavBar/NavBar'
-=======
->>>>>>> feature/seccion1
 import Section1 from "./Components/Section1/Section1";
 import Section2 from "./Components/Section2/Section2";
 import Section3 from "./Components/Section3/Section3";
@@ -11,7 +7,6 @@ import Section5 from "./Components/Section5/Section5";
 function App() {
   return (
     <div className='container-fluid'>
-      
       <Section1 />
       <Section2 />
       <Section3 />

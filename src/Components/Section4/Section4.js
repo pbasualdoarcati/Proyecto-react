@@ -12,11 +12,7 @@ const Section4 = () => {
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                                 </button>
                             </h4>
-<<<<<<< HEAD
-                            <div id="flush-collapseOne" className="accordion-collapse collapse p-4" aria-labelledby="flush-headingOne"
-=======
                             <div id="flush-collapseOne" className="accordion-collapse collapse" aria-labelledby="flush-headingOne"
->>>>>>> feature/seccion1
                                 data-bs-parent="#accordionCorredor">
                                 <div className="accordion-body accordion_texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla suscipit
                                     aperiam, consectetur quos exercitationem totam ipsam illum fugit quibusdam culpa quidem rerum
@@ -26,20 +22,12 @@ const Section4 = () => {
                         </div>
                         <div className="accordion-item">
                             <h4 className="accordion-header" id="flush-headingTwo">
-<<<<<<< HEAD
-                                <button className="accordion-button collapsed accordion_titulo p-4" type="button" data-bs-toggle="collapse"
-=======
                                 <button className="accordion-button collapsed accordion_titulo" type="button" data-bs-toggle="collapse"
->>>>>>> feature/seccion1
                                     data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                                 </button>
                             </h4>
-<<<<<<< HEAD
-                            <div id="flush-collapseTwo" className="accordion-collapse collapse p-4" aria-labelledby="flush-headingTwo"
-=======
                             <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
->>>>>>> feature/seccion1
                                 data-bs-parent="#accordionCorredor">
                                 <div className="accordion-body accordion_texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa facere ea
                                     quaerat tempora ratione veniam, vero odio illo assumenda, quia molestias. Nobis soluta nesciunt
