@@ -1,6 +1,8 @@
 /* Section 4 */
+
+
 .section4_acordion_container{
-    background: url("#");
+    background: url("../images/corredor.png");
     background-position: right;
     background-repeat: no-repeat;
     background-size: contain;
@@ -19,10 +21,14 @@
             }
     }
   }
+
   $accordion-button-active-bg: #F8F8F8;
   $accordion-button-bg:#F8F8F8;
   $accordion-icon-color: #E0752F;
   $accordion-icon-active-color: #E0752F;
   $accordion-button-active-color: #5f6368;
   $accordion-border-width: 1px;
-  @import "../../../node_modules/bootstrap/scss/bootstrap";
+  
+  @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+
