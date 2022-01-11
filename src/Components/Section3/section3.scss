@@ -1,55 +1,47 @@
 /* Css Seccion_3  */
-.section3 {
+  .section3{
     width: 87.3rem;
     height: 50rem;
     display: flex;
     align-items: center;
     justify-content: center;
     background: linear-gradient(to right, #f2f4f1 75%, #dce1da 25%);
-  }
-  .section3 .section3__casa {
-    background: url("../images/casa-lago.png");
-    height: 34.5rem;
-    width: 60.3rem;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-  }
-  .section3 .section3__casa .section3__recuardoNaranja {
-    background-color: #E0752F;
-    width: 29.5rem;
-    height: 19rem;
-  }
-  .section3 .section3__casa .section3__recuardoNaranja .section3_carousel {
-    display: flex;
-  }
-  .section3 .section3__casa .section3__recuardoNaranja .section3_carousel .section3_carousel_texto {
-    display: flex;
-    width: 101%;
-    padding: 13.5%;
-  }
-  .section3 .section3__casa .section3__recuardoNaranja .section3_carousel .section3_botones {
-    display: flex;
-  }
-  .section3 .section3__casa .section3__recuardoNaranja .section3_carousel .section3_botones .section3_botones1 {
-    display: flex;
-    width: 8%;
-    height: 90%;
-    align-items: flex-end;
-    margin-left: 72%;
-  }
-  .section3 .section3__casa .section3__recuardoNaranja .section3_carousel .section3_botones .section3_botones2 {
-    display: flex;
-    width: 10%;
-    height: 90%;
-    align-items: flex-end;
-    margin-right: 9%;
-  }
-  .carousel-control-prev-icon{
-    background-image: url("../Assets/images/button/right.svg");
-  }
-  
-  .seccion3_carousel-control-next-icon{
-    background-image: url("../Assets/images/button/left.svg");
-  }
-  @import "../../../node_modules/bootstrap/scss/bootstrap";
+    .section3__casa{
+        background: url("../images/casa-lago.png");
+        height: 34.5rem;
+        width: 60.3rem;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        .section3__recuardoNaranja{
+            background-color: #E0752F;
+            width: 29.5rem;
+            height: 19rem;
+            .section3_carousel{
+                display: flex;
+                .section3_carousel_texto{
+                    display: flex;
+                    width: 101%;
+                    padding: 13.5%
+                }
+            .section3_botones{
+                display: flex;
+                .section3_botones1{
+                    display: flex;
+                    width: 8%;
+                    height: 90%;
+                    align-items: flex-end;
+                    margin-left: 73%;
+                }
+                .section3_botones2{
+                    display: flex;
+                    width: 10%;
+                    height: 90%;
+                    align-items: flex-end;
+                    margin-right: 12%;
+                }
+            }
+            }
+        }
+    }
+}
