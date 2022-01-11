@@ -1,5 +1,5 @@
 import React from 'react'
-import NavBar from '../NavBar/NavBar';
+import NavBar from  '../NavBar/NavBar'
 import Button from '../Elements/Button'
 function Section1(props){
     return (

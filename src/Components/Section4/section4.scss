@@ -1,13 +1,6 @@
 /* Section 4 */
-<<<<<<< HEAD
-
-
-.section4_acordion_container{
-    background: url("../images/corredor.png");
-=======
 .section4_acordion_container{
     background: url("#");
->>>>>>> feature/seccion1
     background-position: right;
     background-repeat: no-repeat;
     background-size: contain;
@@ -26,21 +19,10 @@
             }
     }
   }
-<<<<<<< HEAD
-
-=======
->>>>>>> feature/seccion1
   $accordion-button-active-bg: #F8F8F8;
   $accordion-button-bg:#F8F8F8;
   $accordion-icon-color: #E0752F;
   $accordion-icon-active-color: #E0752F;
   $accordion-button-active-color: #5f6368;
   $accordion-border-width: 1px;
-<<<<<<< HEAD
-  
-  @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
-
-
-=======
   @import "../../../node_modules/bootstrap/scss/bootstrap";
->>>>>>> feature/seccion1

@@ -6,7 +6,7 @@ function NavBar (props){
             <header>
                 <nav className="navbar navbar-expand-lg navbar-light bg-transparent nav_menu" >
                     <div className="container-fluid top_logo">
-                        <img src="images/top-logo.png" alt="Logo top 25 Watts " className="d-inline-block align-text-top"></img>
+                        <img src="./images/top-logo.png" alt="Logo top 25 Watts " className="d-inline-block align-text-top"></img>
                     </div>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
