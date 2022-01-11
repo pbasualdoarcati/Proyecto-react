@@ -1,0 +1,14 @@
+.seccion1 {
+
+    .seccion1__container{
+
+        background-image: url(../images/bicicleta1.png);
+        background-repeat: round;
+        background-size: cover;
+        margin: -7px;
+
+    }
+
+}
+
+@import "../../../node_modules/bootstrap/scss/bootstrap";

@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+<<<<<<< HEAD
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './index.scss';
@@ -9,6 +10,15 @@ import './Components/Section5/section5.scss';
 import './Components/Section4/section4.scss';
 import 'bootstrap/dist/js/bootstrap.bundle';
 
+=======
+import './index.scss';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+import './Components/Section2/section2.scss';
+import './Components/Section3/section3.scss';
+import './Components/Section4/section4.scss';
+import 'bootstrap/dist/js/bootstrap.bundle';
+>>>>>>> feature/seccion1
 
 ReactDOM.render(
   <React.StrictMode>
