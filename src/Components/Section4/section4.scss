@@ -1,0 +1,28 @@
+/* Section 4 */
+.section4_acordion_container{
+    background: url("#");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    width: 100%;
+    .section4_acordion{
+            display: flex;
+            width: 60%;
+            .section4_acordion_texto{
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    margin-top: 36%;
+                    margin-bottom: 37%;
+                    margin-left: 15%;
+            }
+    }
+  }
+  $accordion-button-active-bg: #F8F8F8;
+  $accordion-button-bg:#F8F8F8;
+  $accordion-icon-color: #E0752F;
+  $accordion-icon-active-color: #E0752F;
+  $accordion-button-active-color: #5f6368;
+  $accordion-border-width: 1px;
+  @import "../../../node_modules/bootstrap/scss/bootstrap";

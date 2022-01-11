@@ -1,7 +1,6 @@
 import React from 'react'
 import NavBar from '../NavBar/NavBar';
-import './Section1.sass'
-
+import Button from '../Elements/Button'
 function Section1(props){
     return (
         <div className="container_carousel container-fluid" id="home">
@@ -22,10 +21,10 @@ function Section1(props){
                             <h1 className="titulo_carousel">Sed ut perspiciatis unde omnis iste natus</h1>
                             <p className="texto_carousel">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
                                 doloremque.</p>
-                            <button type="button" className="readmore">Readmore</button>
+                            <Button symbol={'Read More'} />
                         </div>
                     </div>
-                    <div className="carousel-item">
+                    {/* <div className="carousel-item">
                         <div className="texto1">
                             <h1 className="titulo_carousel">Sed ut perspiciatis unde omnis iste natus</h1>
                             <p className="texto_carousel">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
@@ -41,7 +40,7 @@ function Section1(props){
                                 doloremque. Lor</p>
                             <button type="button" className="readmore">Readmore</button>
                         </div>
-                    </div>
+                    </div> */}
                 </div> 
                 <hr />
             </div>

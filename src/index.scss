@@ -1,0 +1,88 @@
+.contenedor-menu {
+  border-bottom: 1px solid #f44611;
+  padding-left: 8%;
+}
+.contenedor-menu .nav_menu {
+  display: flex;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.contenedor-menu .nav_menu .nav_menu_link {
+  padding-right: 15%;
+}
+.contenedor-menu .nav_menu .nav_menu_link .fuente_menu {
+  padding-right: 8%;
+}
+.fuente_menu, button, .texto_carousel {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: medium;
+  opacity: 1;
+  text-align: left;
+}
+
+.segundo_carousel_texto1, .accordion_titulo, .formulario_globo__content__form, .formulario_globo__content__form__contact {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: medium;
+  opacity: 1;
+  text-align: left;
+  letter-spacing: .22px;
+}
+.segundo_carousel_texto1, .segundo_carousel_texto2{
+  color:#fff
+}
+.section2__texto, .segundo_carousel_texto2, .accordion_texto, .pie-pagina__p5 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 1;
+  text-align: left;
+  letter-spacing: .22px;
+}
+.titulo_carousel {
+  font-family: 'Poppins', sans-serif;;
+  font-size: 48px;
+  font-weight: 600;
+  opacity: 1;
+  text-align: left;
+  letter-spacing: .67px;
+  color: #fff;
+}
+.segundo_carousel_titulo{
+  font-family: 'Poppins', sans-serif;;
+  font-size: 39px;
+  font-weight: medium;
+  letter-spacing: .55px;
+  color:#fff
+
+}
+.formulario_globo__content__h4{
+  font-family: 'Poppins', sans-serif;;
+  font-size: 39px;
+  font-weight: medium;
+  letter-spacing: .55px;
+  color: #343434;
+}
+.section2__titulo {
+  font-family: 'Poppins', sans-serif;;
+  font-size: 39px;
+  font-weight: bold;
+  opacity: 1;
+  color: #343434;
+  letter-spacing: .55px;
+}
+span{
+  color: #E0752F;
+}
+.pie-pagina__p5{
+  color: #DCE1DA;
+}
+$btn-font-family: 'Roboto', sans-serif;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
