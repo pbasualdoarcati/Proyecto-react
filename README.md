@@ -1,27 +1,54 @@
-# Comandos para trabajar en equipo en Github
+# Proyecto Integrador Final Para Certificación Fullstack
+## MundosE & UNC
+### 📋 Objetivos:
+- One page en ReactJs tomando como referencia el diseño trabajado a lo largo del programa
+    - Bloque de navegación principal con comportamiento smooth scroll (al hacer click animar hasta el destino).
+    - Bloque de slider con tres imágenes.
+    -Bloque de texto fullwidth.
+    -Bloque de slider centrado con dos pasadas y fondo a dos colores.
+    -Bloque con acordeón e imagen de fondo ubicada a la derecha.
+    -Bloque de formulario con validación al enviar (puede ser validado con JavaScript del lado del cliente, o bien del lado del servidor mediante Laravel), mostrar resultados de validación de forma clara.
+- Conectar con API REST creada en Laravel para el envío de formulario vía mail y guardar los datos del envío en una base de datos.
+- Ambos desarrollos deben estar en modo online (expuesto en URLs accesibles vía web).
+- Se evaluará resolución Desktop y mobile.
+### Primeros Pasos: 
+1. Idea General 💡
+    - Pautar metodologia de trabajo.
+    - Elegir tecnologias.
+    - Pautar estructura formal de OnePage.
+2. Logica ⚙️
+    - API
+    - Conectar front con back
+3. Coding! ⌨️
+    - Crear estructura de archivos
+    - Migrar a React 
+    - Setear estilos
+    - Customizar frameworks
+### 🛠️ Tecnologias Utilizadas:
+- HTML
+- CSS
+- JavaScript
+- Sass
+- Bootstrap
+- PHP
+- Laravel
+- MySQL
+- API
+### 🔧 Git & Github:
+Al ser un trabajo en equipo, el proyecto fue dividido en subtareas. Utilizamos el siguiente pack de comandos para trabajar.
+```  
+git pull
+git checkout - feature/nombreDeRama
+git status
+git add .
+git commit -m 'referencia de cambio'
+git push origin feature/nombreDeRama
+```
+Una vez hecho los cambios en nuestras ramas segun nuetras tareas, generabamos el correspondiente pullrequest el cual era revisado por todos los integrantes y recien era aprobado para ser mergeado. Una vez hecho el merge, volviamos al main con `git checkout main` realizabamos un pull y ya estabamos otra vez actualizados.
 
-1. git status (nos indica en que posicion estamos)
-2. git pull (trae el repo actualizado)
-
-# Para crear una rama y comitear
-1. git checkout -b feature/*nombrederama* (crea una nueva rama) 
-2. git status (checkea donde estamos parados)
-3. hacemos nuestros cambios
-4. git status (muestra los cambios)
-Si tenemos muchos archivos cambiados lo recomendable es hacer un commit por archivo cambiado, haciendo referencia a cada uno de ellos de forma clara. 
-5. git add *nombre de archivo*
-5. git add . (*para añadir todos los archivos*)
-6. git commit -m 'referencia de que cambio se hizo'
-7. git push origin feature/*nombrederama* (*la misma que se creo al inicio*)
-
-### El push genera un boton en el repositorio remoto en Github *Compare and Pull Request*, darle click y pedir REVIEW.
-
-## OJO que en nuestro local seguimos en nuestra branch!
-
-### **Una vez aprobado el pull request**
-1. git status ( CORROBORAMOS ESTAR EN MAIN )  
-#### Si no estamos en main  
-2. ***git checkout main***
-3. git pull 
-
-# Y LISTO!! 
+### Integrantes:
+- Pablo Basualdo
+- Pablo Salvagni
+- Paula Garcia
+- Nicolas Grillo
+- Hernán Barboza
