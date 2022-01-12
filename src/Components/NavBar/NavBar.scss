@@ -1,0 +1,53 @@
+.contenedor__menu {
+
+    z-index: 200;
+    position: absolute;
+
+    border-bottom: 1px solid #f44611;
+    padding-left: 8%;
+    background-color: rgba(0,0,0,.05);
+
+    .nav__menu {
+
+        display: flex;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+        .nav__menu--link {
+            padding-right: 2rem;
+        }
+
+        .nav__menu--item {
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-size: 16px;
+            font-weight: medium;
+            opacity: 1;
+            text-align: left;
+            color: #FFF;
+            padding: 1.2rem 1rem;
+
+            .nav-link {
+                color: #FFF;
+            }
+        }
+
+        .nav__menu--item a:hover { 
+            color: rgb(177, 43, 43);
+        }
+
+      }
+
+}
+
+.active {
+
+    font-weight: bolder;
+    color: #FFF!important;
+    cursor: none;
+
+}
+
+// .contenedor-menu .nav_menu .nav_menu_link .fuente_menu {
+//     padding-right: 8%;
+// }
