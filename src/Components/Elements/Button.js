@@ -2,7 +2,7 @@ import React from "react";
 
 function Button (props){
     return (
-        <button onClick={props.handleClick}>{props.symbol}</button>
+        <button className="button__container" onClick={props.handleClick}>{props.symbol}</button>
     )
 }
 export default Button
