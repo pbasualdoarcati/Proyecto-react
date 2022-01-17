@@ -26,14 +26,10 @@ const Section3 = () => {
                         </div>
                         <div className="section3_botones">
                             <button className="carousel-control-prev section3_botones1" type="button" data-bs-target="#segundo_carousel"
-                                data-bs-slide="prev">
-                                <span className="carousel-control-prev-icon" aria-hidden="false"></span>
-                                <span className="visually-hidden">Anterior</span>
+                                data-bs-slide="prev"><img src='../images/button/left.svg'></img>
                             </button>
                             <button className="carousel-control-next section3_botones2" type="button" data-bs-target="#segundo_carousel"
-                                data-bs-slide="next">
-                                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span className="visually-hidden">Siguiente</span>
+                                data-bs-slide="next"><img src='../images/button/right.svg'></img>
                             </button>
                         </div>
                     </div>

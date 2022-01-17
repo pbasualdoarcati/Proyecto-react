@@ -3,7 +3,7 @@ import React from 'react';
 function NavBar (props){
     return(
         <div className="container-fluid contenedor__menu">
-            <header className='container'>
+            <header className='container-fluid header-container'>
 
                 <nav className="navbar navbar-expand-lg navbar-light bg-transparent nav__menu" >
 
@@ -19,7 +19,7 @@ function NavBar (props){
                     <div className="collapse navbar-collapse nav__menu--link" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item nav__menu--item">
-                                <a href="#home" className="nav-link active" aria-current="page">Home</a>
+                                <a href="#home" className="nav-link" aria-current="page">Home</a>
                             </li>
                             <li className="nav-item nav__menu--item">
                                 <a href="#about" className="nav-link">About</a>

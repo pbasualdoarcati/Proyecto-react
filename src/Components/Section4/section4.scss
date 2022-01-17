@@ -1,14 +1,16 @@
 /* Section 4 */
 .section4_acordion_container{
-    background: url("#");
+    background: url(../images/corredor.png);
     background-position: right;
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
     .section4_acordion{
             display: flex;
-            width: 60%;
+            width: 54%;
+            margin-top: -54px;
             .section4_acordion_texto{
                     display: flex;
                     flex-direction: column;
@@ -18,6 +20,22 @@
                     margin-left: 15%;
             }
     }
+    @media (max-width: 1024px) {
+        .section4_acordion_container {
+          width: 54%;
+          height: 54%;
+        }
+        .section4_acordion{
+                width: 100vw;
+                margin-left: 0;
+                .section4_acordion_texto{
+                        margin-left: 0;
+                }
+        }
+      }
+      @media (max-width: 720px) {
+        height: 77vh;              
+      }
   }
   $accordion-button-active-bg: #F8F8F8;
   $accordion-button-bg:#F8F8F8;
@@ -25,4 +43,7 @@
   $accordion-icon-active-color: #E0752F;
   $accordion-button-active-color: #5f6368;
   $accordion-border-width: 1px;
+  $carousel-indicator-opacity: .25;
+  $carousel-indicator-spacer: 6.5px;
+
   @import "../../../node_modules/bootstrap/scss/bootstrap";

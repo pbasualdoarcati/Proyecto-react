@@ -1,83 +1,58 @@
 @import '../Elements/Button.scss';
 @import '../NavBar/NavBar.scss';
 
-$tipografia-poppin: 'Poppins', sans-serif;
-$tipografia-roboto: 'Roboto', sans-serif;
-$btn-font-family: 'Roboto', sans-serif;
-$color-naranja: #E0752F;
-$color-texto: #FFF;
 
-.seccion1 {
-
-    background-color: rgba(212, 84, 84, 0.05)!important;
-
-    .seccion1__container{
-
-        width: 100vw;
-        height: 100vh;
-
-        position: relative;
-        top: -110px;
-        z-index: 100;
-
-    }
-
-    .container__carousel{
+.principal{
+    background: url(../images/bicicleta.png);
+    background-size: cover;
+    background-repeat:space;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    .container_carousel{
         display: flex;
         flex-direction: column;
         justify-content: center;
         position: relative;
-        width: 100vw;
+        width: 86vw;
+        height: 91vh;
         .container_internal{
             display: flex;
-            bottom: 10%;
-            // right: 5%;
         }
-        .container_internal_primero, .container_internal_segundo, .container_internal_tercero{
+        .container_internal_primero{
             display: flex;
         }
-                
-        .carousel__bloque {
-            display: flex!important;
-            flex-direction: column;
-            top: 35%;
-            left: 80px;
+        .container_internal_segundo{
+            display: flex;
         }
-
+        .texto1{
+            display: flex;
+            flex-direction: column;
+        }
         .botones_carousel{
-           
-            justify-content: flex-start!important;
-            margin-left: 80px!important;
-            margin-bottom: 6%!important;
-            
-            // @media (max-width: 1280px){
-            //     margin-top:10%;
-            // }
-            // @media (max-width: 768px){  
-            //     margin-top:25%;
-            // }   
+            display: flex;
+            flex-direction: row;
+            margin:0;
+            justify-content: flex-start;
+            position: relative;
+            top: 22rem;
+            left: 2rem;
+            @media (max-width: 1280px){
+                margin-top:10%;
+            }
+            @media (max-width: 768px){
+                margin-top: 10%;
+            }   
         
             .carousel_boton{
                 border-radius: 50%;
                 width: 8px;
                 height: 8px;
-                margin-right: 13px;
-                background-color: #5F6368;
-            }
-            .carousel_boton:hover{ 
-                background-color: $color-naranja;
+                background-color: #E0752F;
             }
         }
-
-        .titulo__carousel{
-            font-family: $tipografia-poppin;
-            font-size: 3rem;
-            font-weight: 600;
-            opacity: 1;
-            text-align: left;
-            letter-spacing: .67px;
-            color: $color-texto;
-            width: 60%;
+        .titulo_carousel{
+            width: 52%;
             @media (max-width:1024px){
                 width: 90%;
             }
@@ -85,54 +60,17 @@ $color-texto: #FFF;
                 width: 100%;
             }
         }
-        .texto__carousel{
-            font-family: $tipografia-roboto;
-            font-style: normal;
-            font-size: 16px;
-            font-weight: lighter;
-            opacity: 1;
-            text-align: left;
+        .texto_carousel{
             padding-top: 4%;
-            padding-bottom: 10;
+            padding-bottom: 2%;
             width: 33%;
-            color: $color-texto;
-            margin-bottom: 4%;
-
+            color: #fff;
             @media (max-width: 1024px){
                 width: 50%;
             }
-
             @media (max-width:768px){
                 width: 75%;
             }
-
         }
     }
-
 }
-
-.titulo_carousel {
-    font-family: $tipografia-poppin;
-    font-size: 48px;
-    font-weight: 600;
-    opacity: 1;
-    text-align: left;
-    letter-spacing: .67px;
-    color: $color-texto;
-}
-.segundo_carousel_titulo{
-    font-family: $tipografia-poppin;
-    font-size: 39px;
-    font-weight: medium;
-    letter-spacing: .55px;
-    color:$color-texto
-
-}
-
-.container__carousel {
-    // position: relative;
-    // top: -110px;
-    // z-index: 100;
-}
-
-@import "../../../node_modules/bootstrap/scss/bootstrap";
