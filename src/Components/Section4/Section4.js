@@ -12,7 +12,7 @@ const Section4 = () => {
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                                 </button>
                             </h4>
-                            <div id="flush-collapseOne" className="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                            <div id="flush-collapseOne" className="accordion-collapse collapse p-4" aria-labelledby="flush-headingOne"
                                 data-bs-parent="#accordionCorredor">
                                 <div className="accordion-body accordion_texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla suscipit
                                     aperiam, consectetur quos exercitationem totam ipsam illum fugit quibusdam culpa quidem rerum
@@ -27,7 +27,7 @@ const Section4 = () => {
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                                 </button>
                             </h4>
-                            <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                            <div id="flush-collapseTwo" className="accordion-collapse collapse p-4" aria-labelledby="flush-headingTwo"
                                 data-bs-parent="#accordionCorredor">
                                 <div className="accordion-body accordion_texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa facere ea
                                     quaerat tempora ratione veniam, vero odio illo assumenda, quia molestias. Nobis soluta nesciunt
@@ -42,7 +42,7 @@ const Section4 = () => {
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                                 </button>
                             </h4>
-                            <div id="flush-collapseThree" className="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                            <div id="flush-collapseThree" className="accordion-collapse collapse p-4" aria-labelledby="flush-headingThree"
                                 data-bs-parent="#accordionCorredor">
                                 <div className="accordion-body accordion_texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam error
                                     incidunt a facilis animi, ratione tempore atque beatae officia quos doloremque unde dignissimos,
