@@ -27,13 +27,15 @@
 ### 🛠️ Tecnologias Utilizadas:
 - HTML
 - CSS
-- JavaScript
 - Sass
 - Bootstrap
+- JavaScript
+- React
+- Formik
 - PHP
 - Laravel
 - MySQL
-- API
+- API-Rest
 ### 🔧 Git & Github:
 Al ser un trabajo en equipo, el proyecto fue dividido en subtareas. Utilizamos el siguiente pack de comandos para trabajar.
 ```  
