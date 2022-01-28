@@ -3,76 +3,81 @@
 
 
 .principal{
-    background: url(../images/bicicleta.png);
-    background-size: cover;
-    background-repeat:space;
-    background-position: center;
+
     display: flex;
     flex-direction: column;
-    .container_carousel{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        position: relative;
-        width: 86vw;
-        height: 91vh;
-        .container_internal{
-            display: flex;
-        }
-        .container_internal_primero{
-            display: flex;
-        }
-        .container_internal_segundo{
-            display: flex;
-        }
-        .texto1{
-            display: flex;
-            flex-direction: column;
-        }
-        .botones_carousel{
-            display: flex;
-            flex-direction: row;
-            margin:0;
-            justify-content: flex-start;
-            position: relative;
-            top: 22rem;
-            left: 2rem;
-            @media (max-width: 1280px){
-                top: 20rem;
-            }
-            @media (max-width: 768px){
-                top: 20rem;
-            }
-            @media (max-width: 576px){
-                top: 26rem;
-            }      
+
+    position: relative;
+
+
+    .titulo_carousel{
+        width: 60%;
+        margin-bottom: 30px!important;
         
-            .carousel_boton{
-                border-radius: 50%;
-                width: 8px;
-                height: 8px;
-            }
+
+        @media (max-width: 1024px){
+            width: 70%;
+            font-size: 32px;
+            font-weight: 600;
+            opacity: 1;
+            text-align: left;
+            letter-spacing: 0.67px;
         }
-        .titulo_carousel{
-            width: 52%;
-            @media (max-width:1024px){
-                width: 90%;
-            }
-            @media (max-width:768px){
-                width: 100%;
-            }
+        @media (max-width:768px){
+            font-size: 30px;
+            line-height: 42px;
+            width: 100%;
         }
-        .texto_carousel{
-            padding-top: 4%;
-            padding-bottom: 2%;
-            width: 33%;
-            color: #fff;
-            @media (max-width: 1024px){
-                width: 50%;
-            }
-            @media (max-width:768px){
-                width: 75%;
-            }
+
+    }
+    .texto_carousel {
+        width: 40%;
+        @media (max-width: 1024px){
+            width: 70%;
         }
+        @media (max-width:768px){
+            width: 100%;
+        }
+    }
+    .carousel-caption {
+        left: 11%!important;
+        bottom: 28%;
+        @media (max-width: 1024px){
+            bottom: 15%;
+        }
+        @media (max-width:768px){
+            bottom: 15%;
+        }
+    }
+    .carousel__button {
+        margin-top: 40px;
+        text-align: left;
+    }
+
+    .carousel-indicators {
+        // width: 100%;
+        margin-left: 11%;
+        margin-bottom: 9%;
+        margin-top: 50px;
+        justify-content: flex-start;
+        
+        @media (max-width: 1024px){
+            margin-bottom: 4%;
+        }
+        @media (max-width:768px){
+            margin-bottom: 6%;
+        }
+    }
+
+    .carousel-indicators [data-bs-target] {
+        
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        justify-content: flex-start;
+        margin-left: 10px;
+
+        
+
     }
 }

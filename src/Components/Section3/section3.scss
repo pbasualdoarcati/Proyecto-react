@@ -14,17 +14,25 @@
       align-items: flex-end;
       justify-content: flex-end;
       .section3__recuardoNaranja{
-          background-color: #E0752F;
-          width: 29.5rem;
-          height: 19rem;
-          .section3_carousel{
+        background-color: #E0752F;
+        width: 29.5rem;
+        height: 19rem;
+
+        @media (max-width: 1024px){
+            width: 100%;
+        }
+        @media (max-width: 768px){
+            width: 100%;
+        }
+
+            .section3_carousel{
               display: flex;
               .section3_carousel_texto{
                   display: flex;
                   width: 101%;
                   padding: 11.5%
               }
-          .section3_botones{
+            .section3_botones{
               display: flex;
               .section3_botones1{
                   display: flex;
