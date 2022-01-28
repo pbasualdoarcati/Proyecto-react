@@ -1,22 +1,45 @@
 .contenedor__menu {
 
-    border-bottom: 1px solid #E0752F;
     padding-left: 8%;
+
     .nav__menu {
 
+        width: 100vw;
+        border-bottom: 1px solid #E0752F;
+
+        .navbar-toggler {
+            margin-right: 18px;
+        }
+        
+        position: absolute ;
         display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
         padding-top: 1rem;
         padding-bottom: 1rem;
+        z-index: 1000;
+
+        @media (max-width: 1280px){
+            padding-left: 1rem!important;
+        }
+        
+        @media (max-width: 768px){
+            padding-left: .5rem!important;
+            flex-direction: row;
+        }  
+
         .top_logo{
-            width: 80vw;
+            
             padding-left: 10rem;
+
             @media (max-width: 1280px){
-                margin-left: 2rem;
+                padding-left: 2rem!important;
             }
             @media (max-width: 768px){
-                margin-left: 2rem;
+                padding-left: 0rem;
             }   
         }
+
         .nav__menu--link {
             padding-right: 2rem;
         }
@@ -39,7 +62,5 @@
         .nav__menu--item a:hover { 
             color: rgb(177, 43, 43);
         }
-
       }
-
 }

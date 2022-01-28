@@ -4,7 +4,6 @@ function NavBar (props){
     return(
         <div className="container-fluid contenedor__menu">
             <header className='container-fluid header-container'>
-
                 <nav className="navbar navbar-expand-lg navbar-light bg-transparent nav__menu" >
 
                     <div className="container top_logo">
@@ -34,9 +33,9 @@ function NavBar (props){
                                 <a href="#contact" className="nav-link">Contact</a>
                             </li>
                         </ul>
-                    </div>
-                    
-                </nav>
+                    </div> 
+
+                </nav>  
             </header>
         </div>
     )
