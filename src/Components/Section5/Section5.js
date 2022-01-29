@@ -10,19 +10,19 @@ const Section5 = () => {
                         <div id="formulario" className="formulario_globo__content__form">
                             <form className="formulario_globo__content__form__contact" action="contacto.php" method="POST">
                                 <div className="formulario_globo__content__form__name">
-                                    <label for="name">Name</label>
+                                    <label htmlFor="name">Name</label>
                                     <input type="text" name="name" id="name" className="formulario_globo__content__input" required/>
                                 </div>
                                 <div className="formulario_globo__content__form__email">
-                                    <label for="email">Email</label>
+                                    <label htmlFor="email">Email</label>
                                     <input type="email" name="email" id="email" className="formulario_globo__content__input" required/>
                                 </div>
                                 <div className="formulario_globo__content__form__phone">
-                                    <label for="phone">Phone</label>
+                                    <label htmlFor="phone">Phone</label>
                                     <input type="number" name="phone" id="phone" className="formulario_globo__content__input" required/>
                                 </div>
                                 <div className="formulario_globo__content__form__message">
-                                    <label for="message">Message</label>
+                                    <label htmlFor="message">Message</label>
                                     <textarea className="formulario_globo__content__textarea" id="message"></textarea>
                                 </div>
                                 <div className="formulario_globo__content__boton">
