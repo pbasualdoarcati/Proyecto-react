@@ -28,7 +28,7 @@ function NavBar (props){
         <div className="container-fluid contenedor__menu">
             <header className='container-fluid header-container'>
 
-                <aside class={`nav__menuHamburger  ${click}`}>
+                <aside className={`nav__menuHamburger  ${click}`}>
                         <button className="nav__menuHamburger--close" type="button" onClick={ () => showHamburger () }>
                             X
                         </button>
