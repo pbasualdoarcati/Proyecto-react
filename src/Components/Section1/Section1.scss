@@ -24,7 +24,7 @@
             letter-spacing: 0.67px;
         }
         @media (max-width:768px){
-            font-size: 30px;
+            font-size: 25px;
             line-height: 42px;
             width: 100%;
         }
@@ -80,4 +80,15 @@
         
 
     }
+    @media (max-width: 320px){
+        .carousel{
+            .carousel-item{
+                height: 26rem;
+            }
+        img{
+            height: 26rem;
+        }
+        }
+    }
+ 
 }
