@@ -1,3 +1,24 @@
+footer{
+  .pie-pagina {
+    background-color: #343434;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    .pie-pagina__p5 {
+      margin-top: 3%;
+      color: #dce1da;
+    }
+    @media (max-width: 1024px) {
+      .pie-pagina__p5 {
+        margin-top: 5%;
+      }
+    }
+  }
+}
 .formulario_globo__form {
   display: flex;
   flex-direction: row;
@@ -188,28 +209,10 @@
   }
   @media (max-width: 576px){
     padding-top: 30%;
-    padding-bottom: 40%;
+    padding-bottom: 62%;
   }      
 }
-.pie-pagina {
-  background-color: #343434;
-  display: flex;
-  flex-direction: row;
-  align-content: space-between;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 10%;
-  padding-right: 10%;
-  .pie-pagina__p5 {
-    margin-top: 3%;
-    color: #dce1da;
-  }
-  @media (max-width: 1024px) {
-    .pie-pagina__p5 {
-      margin-top: 5%;
-    }
-  }
-}
+
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,300;1,400&display=swap");}
