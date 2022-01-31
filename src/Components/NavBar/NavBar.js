@@ -25,7 +25,7 @@ function NavBar (props){
     }
 
     return(
-        <div className="container-fluid contenedor__menu">
+        <div className="container-fluid contenedor__menu ">
             <header className='container-fluid header-container'>
 
                 <aside className={`nav__menuHamburger  ${click}`}>
