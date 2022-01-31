@@ -1,5 +1,4 @@
 .formulario_globo__form {
- 
   display: flex;
   flex-direction: row;
   background: linear-gradient(to right, #f2f4f1 75%, #dce1da 25%);
@@ -7,6 +6,86 @@
   justify-content: center;
   padding-top: 9%;
   padding-bottom: 9%;
+  .formulario_globo__content {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-around;
+    height: 74vh;
+    width: 41%;
+    gap: 50px;
+
+    .formulario_globo__content__h4 {
+      font-size: 39px;
+      width: 50%;
+      .formulario_globo__content_text_orange {
+        color: #e0752f;
+      }
+    }
+    .formulario_globo__content__form {
+      height: 54vh;
+      width: 77%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-content: space-around;
+      .error {
+        color: red;
+        font-size: 12px;
+        display: flex;
+        // justify-content: center;
+      }
+      .exito{
+        color: green;
+        font-size: 12px;
+        display: flex;
+
+      }
+      .exito_div{
+        display: flex;
+        border: 1px solid green;
+        padding: 10px;
+        margin-top: 10px;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    .formulario_globo__content__form__name,
+    .formulario_globo__content__form__phone,
+    .formulario_globo__content__form__email,
+    .formulario_globo__content__form__message {
+      display: flex;
+      flex-direction: column;
+    }
+    input,
+    textarea {
+      background-color: transparent;
+      border: 0px;
+      border-bottom: 1px solid grey;
+    }
+    .formulario_globo__content__boton {
+      position: relative;
+      top: 11%;
+    }
+    .button_send {
+      background-color: #e0752f;
+      color: #fff;
+      border-radius: 1.5rem;
+      border-style: none;
+      padding: 1%;
+      width: 6rem;
+      text-align: center;
+    }
+  }
+  @media (max-width: 1024px) {
+    .formulario_globo__imagen-contacto {
+      display: none;
+    }
+    .formulario_globo__content {
+      height: 41vh;
+      width: 75%;
+      align-items: center;
+    }
 
   @media (max-width: 768px){
     background: linear-gradient(to right, #f2f4f1 85%, #dce1da 15%);
@@ -112,25 +191,25 @@
     padding-bottom: 40%;
   }      
 }
-.pie-pagina{
-   background-color: #343434;
-   display: flex;
-   flex-direction: row;
-   align-content: space-between;
-   justify-content: space-between;
-   align-items: center;
-   padding-left: 10%;
-   padding-right: 10%;
-   .pie-pagina__p5{
-       margin-top: 3%;
-       color:#DCE1DA;
-   }
-   @media (max-width: 1024px){
-       .pie-pagina__p5{
-           margin-top: 5%;
-       }
-   }
+.pie-pagina {
+  background-color: #343434;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  .pie-pagina__p5 {
+    margin-top: 3%;
+    color: #dce1da;
+  }
+  @media (max-width: 1024px) {
+    .pie-pagina__p5 {
+      margin-top: 5%;
+    }
+  }
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,300;1,400&display=swap");}
