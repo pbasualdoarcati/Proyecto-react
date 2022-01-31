@@ -80,4 +80,15 @@
         
 
     }
+    @media (max-width: 320px){
+        .carousel{
+            .carousel-item{
+                height: 26rem;
+            }
+        img{
+            height: 26rem;
+        }
+        }
+    }
+ 
 }
