@@ -38,7 +38,7 @@ footer{
 
     .formulario_globo__content__h4 {
       font-size: 39px;
-      width: 50%;
+      width: 290px;
 
       .formulario_globo__content_text_orange {
         color: #e0752f;
@@ -129,25 +129,11 @@ footer{
   .formulario_globo__content__h4 {
         
     font-size: 39px;
-    width: 50%;
-    @media (max-width: 1024px) {
-      width: 41%;
-    }
-    @media (max-width: 1440px) {
-      width: 41%;
-    }
+
     .formulario_globo__content_text_orange{
       color:#e0752f;
     }
 
-    @media (max-width: 768px){
-      width: 75%;
-    }
-     @media (max-width: 576px){
-      margin-top: 50px;
-      font-size: 35px;
-      width: 100%;
-    }    
   }
     
   .formulario_globo__content__form {
